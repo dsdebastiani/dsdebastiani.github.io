@@ -1,0 +1,61 @@
+baseurl = "http://dsdebastiani.github.io"
+title = "dsdebastiani"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "pt-br"
+paginate = 20
+canonifyurls = true
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Daniel S. Debastiani"
+    info = "Desenvolvedor de Software | Android"
+    description = "Site pessoal de Daniel S. Debastiani"
+    keywords = "blog,desenvolvedor,pessoal,android,mobile"
+    avatarurl = "images/profile.jpg"
+    dateformat = "2 de January de 2006"
+    hideFooter = true
+    hideCredits = true
+    hideCopyright = true
+    since = 2020
+    rtl = false
+    colorscheme = "auto"
+    maxSeeAlsoItems = 5
+    enableTwemoji = false
+    custom_css = []
+    custom_js = []
+    favicon = "favicons/"
+
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/dsdebastiani/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/dsdebastiani/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@danielsdebastiani"
+
+[languages]
+    [languages.pt-br]
+        languagename = "Português"
+
+        [languages.pt-br.menu]
+            #
+            # [[languages.pt-br.menu.main]]
+            # name = "Sobre"
+            # weight = 1
+            # url = "about/"
