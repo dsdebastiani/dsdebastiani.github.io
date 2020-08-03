@@ -1,61 +1,64 @@
-baseurl = "https://dsdebastiani.github.io"
-title = "dsdebastiani"
-theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "pt-br"
-paginate = 20
-canonifyurls = true
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "pt-br"
+title = "Daniel S. Debastiani"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
 [params]
-    author = "Daniel S. Debastiani"
-    info = "Desenvolvedor de Software | Android"
-    description = "Site pessoal de Daniel S. Debastiani"
-    keywords = "blog,desenvolvedor,pessoal,android,mobile"
-    avatarurl = "images/profile.jpg"
-    dateformat = "2 de January de 2006"
-    hideFooter = true
-    hideCredits = true
-    hideCopyright = true
-    since = 2020
-    rtl = false
-    colorscheme = "auto"
-    maxSeeAlsoItems = 5
-    enableTwemoji = false
-    custom_css = []
-    custom_js = []
-    favicon = "favicons/"
+title = "Daniel S. Debastiani"
+author = "Daniel S. Debastiani"
+description = "Consultor Desenvolvedor de Software | Desenvolvedor Android"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = []
 
-# [taxonomies]
-#   category = "categories"
-#   series = "series"
-#   tag = "tags"
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
 
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/dsdebastiani/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 4
-    url = "https://www.linkedin.com/in/dsdebastiani/"
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 5
-    url = "https://medium.com/@danielsdebastiani"
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/dsdebastiani"
 
-[languages]
-    [languages.pt-br]
-        languagename = "Português"
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/dsdebastiani/"
 
-        [languages.pt-br.menu]
-            #
-            # [[languages.pt-br.menu.main]]
-            # name = "Sobre"
-            # weight = 1
-            # url = "about/"
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  # [[menu.main]]
+  # name = "Posts"
+  # weight = 200
+  # identifier = "posts"
+  # url = "/post/"
+  #
+  # [[menu.main]]
+  # name = "About"
+  # weight = 300
+  # identifier = "about"
+  # url = "/about/"
