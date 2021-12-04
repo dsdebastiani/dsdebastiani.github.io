@@ -1,0 +1,24 @@
+site_name: My Docs
+theme:
+  name: material
+  font: Poppins
+  icon:
+    logo: fontawesome/brands/github-alt
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
