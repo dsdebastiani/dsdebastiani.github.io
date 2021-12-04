@@ -1,6 +1,0 @@
-[submodule ".hugo/themes/anatole"]
-	path = .hugo/themes/anatole
-	url = https://github.com/lxndrblz/anatole
-[submodule ".hugo/themes/hugo-coder"]
-	path = .hugo/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder
